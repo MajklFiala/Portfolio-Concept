@@ -1,0 +1,141 @@
+.skillsBox{
+    width: 100%;
+    height: 800px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 12rem;
+
+}
+
+
+
+.skillsContainer{
+    width: 70%;
+    height: 90vh;
+    background-color: rgb(0, 0, 0);
+    border: 3px solid white;
+    border-radius: 5rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 3rem;
+}
+
+
+
+.Carousel{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    padding: 2%;
+    gap: 2%;
+    color: white;
+}
+
+.skillsContainer h1{
+    color: white;
+    font-size: 4rem;
+}
+.skillsContainer p{
+    color: white;
+    width: 60%;
+    text-align: center;
+    font-size: 1.3rem;
+}
+
+.Carousel .Icon{
+    border: 1px solid rgba(255, 255, 255, 0.151);
+    border-radius: 50%;
+    padding: 1rem;
+    justify-content: center;
+    align-items: center;
+    cursor: pointer;
+}
+
+.Carousel .sliderContainerDivOne{
+    width: 100%;
+    height: auto;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.Carousel .sliderContainerDivThree{
+    width: 100%;
+    height: auto;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.Carousel .sliderContainerDivTwo{
+    width: 100%;
+    height: auto;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+
+
+
+
+
+
+
+@media screen and (max-width: 850px){
+    .skillsContainer h1{
+        font-size: 2.2rem;
+    }
+
+    .skillsContainer p{
+        font-size: 1rem !important; 
+        width: 60%;
+    }
+
+    
+}
+
+@media screen and (max-width: 885px){
+    .Carousel .sliderContainerDivThree{
+        display: none;
+    }
+
+
+@media screen and (max-width: 320px){
+    .Carousel .sliderContainerDivTwo{
+        display: none;
+    }
+}
+
+}
+
+@media screen and (max-width: 500px){
+    .skillsContainer h1{
+        font-size: 1.5rem;
+    }
+
+    .skillsContainer p{
+        font-size: 0.8rem !important; 
+        width: 60%;
+    }
+
+    .Carousel .Icon{
+        padding: 0.5rem;
+    }
+    
+}
+
+@media screen and (max-width: 370px){
+
+    .Carousel .Icon{
+        padding: 0.3rem;
+    }
+    
+}

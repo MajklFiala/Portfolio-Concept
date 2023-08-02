@@ -1,0 +1,262 @@
+
+
+.projectsBox{
+    width: 100%;
+    height: auto;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 4rem;
+    margin-top: 25rem;
+}
+
+.projectsBox .textP{
+    text-align: center;
+    width: 50%;
+    font-size: 22px;
+}
+
+.projectsBox h1{
+    font-size: 45px;
+}
+
+.projectsContainer{
+    width: 80%;
+    height: 80%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 2rem;
+}
+
+.Tabs{
+    display: flex;
+    flex-direction: row;
+    gap: 2%;
+    justify-content: center;
+    align-items: center;
+}
+
+.Tabs .buttonInactive{
+    width: 18rem;
+    height: 100px;
+    border-radius: 2rem;
+    cursor: pointer;
+    font-size: 22px;
+    color: white;
+    background-color: black;
+    border: transparent;
+}
+
+.Tabs .buttonActive{
+    width: 18rem;
+    height: 100px;
+    border-radius: 2rem;
+    cursor: pointer;
+    font-size: 22px;
+    color: white;
+    background: linear-gradient(rgb(131, 59, 199), rgb(41, 41, 180));
+    border: transparent;
+}
+
+.firstDiv{
+    display: none;
+}
+
+.secondDiv{
+    display: none;
+}
+
+.thirdDiv{
+    display: none;
+}
+
+.projectsContainer .firstDivActive{
+    display: grid;
+    width: 80%;
+    grid-template-columns: 35% 35% 35%;
+    grid-template-rows: 30vh 30vh 30vh;
+    gap: 2%;
+    justify-content: center;
+    align-items: center;
+}
+
+.secondDivActive{
+    display: grid;
+    width: 80%;
+    grid-template-columns: 35% 35% 35%;
+    grid-template-rows: 30vh 30vh 30vh;
+    gap: 2%;
+    justify-content: center;
+    align-items: center;
+}
+
+.thirdDivActive{
+    display: grid;
+    width: 80%;
+    grid-template-columns: 35% 35% 35%;
+    grid-template-rows: 30vh 30vh 30vh;
+    gap: 2%;
+    justify-content: center;
+    align-items: center;
+}
+
+
+@media screen and (max-width: 800px){
+    .projectsContainer .firstDivActive{
+        grid-template-columns: 40% 40% ;
+        grid-template-rows: 30vh 30vh 30vh 30vh;
+        width: 100%;
+    }
+
+    .projectsContainer{
+        width: 100%;
+    }
+    .secondDivActive{
+        grid-template-columns: 40% 40% ;
+        grid-template-rows: 30vh 30vh 30vh 30vh;
+        width: 100%;
+       
+    }
+
+    .thirdDivActive{
+        grid-template-columns: 40% 40% ;
+        grid-template-rows: 30vh 30vh 30vh 30vh;
+        width: 100%;
+       
+    }
+}
+
+@media screen and (max-width: 350px){
+    .projectsContainer .firstDivActive{
+        grid-template-columns: 80% ;
+        grid-template-rows: 20vh 20vh 20vh 20vh 20vh 20vh;
+        width: 100%;
+    }
+
+    .projectsContainer{
+        width: 100%;
+        height: 100%;
+    }
+    .secondDivActive{
+        grid-template-columns: 80% ;
+        grid-template-rows: 20vh 20vh 20vh 20vh 20vh 20vh;
+        width: 100%;
+       
+    }
+
+    .thirdDivActive{
+        grid-template-columns: 80% ;
+        grid-template-rows: 20vh 20vh 20vh 20vh 20vh 20vh;
+        width: 100%;
+       
+    }
+}
+
+@media screen and (max-width: 1100px){
+    .Tabs .buttonInactive{
+        width: 12rem;
+        height: 80px;
+        font-size: 18px;
+    }
+    
+    .Tabs .buttonActive{
+        width: 12rem;
+        height: 80px;
+        font-size: 18px;
+    }
+}
+
+@media screen and (max-width: 800px){
+    .Tabs .buttonInactive{
+        width: 9rem;
+        height: 60px;
+        font-size: 18px;
+    }
+    
+    .Tabs .buttonActive{
+        width: 9rem;
+        height: 60px;
+        font-size: 18px;
+    }
+}
+
+@media screen and (max-width: 500px){
+    .Tabs .buttonInactive{
+        width: 6rem;
+        height: 45px;
+        font-size: 14px;
+    }
+    
+    .Tabs .buttonActive{
+        width: 6rem;
+        height: 45px;
+        font-size: 14px;
+    }
+}
+
+@media screen and (max-width: 500px){
+    .Tabs .buttonInactive{
+        width: 4.5rem;
+        height: 38px;
+        font-size: 12px;
+    }
+    
+    .Tabs .buttonActive{
+        width: 4.5rem;
+        height: 38px;
+        font-size: 12px;
+    }
+}
+
+@media screen and (max-width: 850px){
+    .projectsBox h1{
+        font-size: 35px;
+    }
+
+    .projectsBox .textP{
+        font-size: 15px;
+    }
+}
+
+
+@media screen and (max-width: 450px){
+    .projectsBox h1{
+        font-size: 28px;
+    }
+
+    .projectsBox .textP{
+        font-size: 12px;
+    }
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

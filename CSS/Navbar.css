@@ -1,0 +1,372 @@
+.Navbar{
+    width: 100%;
+    height: 200px;
+    display: grid;
+    grid-template-columns: 1fr 2fr;
+    padding: 2%;
+    gap: 10px;
+}
+
+
+
+
+.Logo{
+    display: flex;
+    align-items: center;
+}
+
+.Logo img{
+    height: auto;
+    width: 200px;
+    padding: 2rem;
+    cursor: pointer;
+    
+
+}
+
+
+
+
+
+.Right{
+    display: flex;
+    flex-direction: row;
+    gap: 15%;
+    font-size: 25px;
+    align-items: center;
+
+
+}
+
+
+.Text{
+    display: flex;
+    flex-direction: row;
+    gap: 20%;
+    width: 60%;
+}
+
+
+
+.Text a{
+    text-decoration: none;
+    color: white;
+}
+
+.Text a:hover{
+    scale: 1.2;
+}
+
+
+
+.Right .Icons{
+    width: 30%;
+    display: flex;
+    flex-direction: row;
+    gap: 10%;
+    
+
+}
+
+.Right .Icons .Icon{
+    width: 50px;
+    height: auto;
+    padding: 10%;
+    border: 1px solid white;
+    border-radius: 50%;
+
+}
+
+.Icons .Icon:hover{
+    transition: 0.3s ease-in-out;
+    background-color: rgb(255, 255, 255);
+    color: rgb(0, 0, 0);
+    cursor: pointer;
+
+}
+
+.Icons a{
+    color: white;
+}
+
+
+
+
+
+
+
+
+.dropDownMenu{
+    display: none;
+}
+
+.dropDownMenuActive{
+    display: none;
+}
+
+.menuIcon{
+    display: none;
+}
+
+@media screen and (max-width: 1200px){
+    .Navbar .Right .Icons{
+        display: none;
+
+    }
+
+    
+}
+
+@media screen and (max-width: 800px){
+
+    .Navbar{
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+    }
+
+    .Right{
+        display: none;
+    }
+
+    .menuIcon{
+        display: flex;
+        align-items: center;
+        justify-content: center;
+
+    }
+
+    .Logo img{
+        height: auto;
+        width: 150px;
+        padding: 2rem;
+        cursor: pointer;
+    }
+
+
+    .menuIcon .menu{
+        width: 40px;
+        height: auto;
+    }
+
+
+    .dropDownMenuActive{
+        background-color: rgba(245, 245, 245, 0.13);
+        border: 2px solid rgb(255, 255, 255);
+        border-radius: 2rem;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        width: 25rem;
+        height: 12rem;
+        padding: 5%;
+        position: relative;
+        bottom: 1rem;
+        padding-top: 2rem;
+        gap: 15%;
+
+    }
+
+    .PreDropDown{
+        width: 100%;
+        height:  auto;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .dropDownMenuActive .Text a{
+        color: rgb(255, 255, 255);
+        font-size: 25px;
+    }
+
+    .dropDownMenuActive .Text{
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+        justify-content: center;
+        width: 100%;
+        gap: 01rem;
+    }
+
+    .dropDownMenuActive .Icons .Icon{
+        color: rgb(255, 255, 255);
+        width: 50px;
+        height: auto;
+    }
+    .dropDownMenuActive .Icons {
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+        gap: 5%;
+    }
+
+    .dropDownMenuActive .Text a:hover{
+        scale: 1.2;
+        cursor: pointer;
+
+    }
+
+    .dropDownMenuActive .Icons .Icon:hover{
+        cursor: pointer;
+        transition: 0.3s ease-in-out;
+        background-color: rgb(255, 255, 255);
+        color: rgb(0, 0, 0);
+        cursor: pointer;
+        border-radius: 5rem;
+        padding: 0.3rem;
+    }
+    
+}
+
+
+
+@media screen and (max-width: 520px){
+
+
+
+
+    .dropDownMenuActive{
+        background-color: rgba(245, 245, 245, 0.13);
+        border: 2px solid rgb(255, 255, 255);
+        border-radius: 1.5rem;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        width: 18rem;
+        height: 10rem;
+        padding: 5%;
+        position: relative;
+        bottom: 1rem;
+        gap: 15%;
+
+    }
+
+    .PreDropDown{
+        width: 100%;
+        height:  auto;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .dropDownMenuActive .Text a{
+        color: rgb(255, 255, 255);
+        font-size: 19px;
+    }
+
+    .dropDownMenuActive .Text{
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+        justify-content: center;
+        width: 100%;
+        gap: 01rem;
+    }
+
+    .dropDownMenuActive .Icons .Icon{
+        color: rgb(255, 255, 255);
+        width: 40px;
+        height: auto;
+    }
+    .dropDownMenuActive .Icons {
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+        gap: 5%;
+    }
+
+    .dropDownMenuActive .Text a:hover{
+        scale: 1.2;
+        cursor: pointer;
+
+    }
+
+    .dropDownMenuActive .Icons .Icon:hover{
+        cursor: pointer;
+        transition: 0.3s ease-in-out;
+        background-color: rgb(255, 255, 255);
+        color: rgb(0, 0, 0);
+        cursor: pointer;
+        border-radius: 5rem;
+        padding: 0.3rem;
+    }
+    
+}
+
+
+@media screen and (max-width: 340px){
+
+
+
+
+    .dropDownMenuActive{
+        background-color: rgba(245, 245, 245, 0.13);
+        border: 2px solid rgb(255, 255, 255);
+        border-radius: 1.5rem;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        width: 13rem;
+        height: 8rem;
+        padding: 5%;
+        position: relative;
+        bottom: 1rem;
+        gap: 15%;
+
+    }
+
+    .PreDropDown{
+        width: 100%;
+        height:  auto;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .dropDownMenuActive .Text a{
+        color: rgb(255, 255, 255);
+        font-size: 12px;
+    }
+
+    .dropDownMenuActive .Text{
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+        justify-content: center;
+        width: 100%;
+        gap: 01rem;
+    }
+
+    .dropDownMenuActive .Icons .Icon{
+        color: rgb(255, 255, 255);
+        width: 25px;
+        height: auto;
+    }
+    .dropDownMenuActive .Icons {
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+        gap: 5%;
+    }
+
+    .dropDownMenuActive .Text a:hover{
+        scale: 1.2;
+        cursor: pointer;
+
+    }
+
+    .dropDownMenuActive .Icons .Icon:hover{
+        cursor: pointer;
+        transition: 0.3s ease-in-out;
+        background-color: rgb(255, 255, 255);
+        color: rgb(0, 0, 0);
+        cursor: pointer;
+        border-radius: 5rem;
+        padding: 0.3rem;
+    }
+    
+}
